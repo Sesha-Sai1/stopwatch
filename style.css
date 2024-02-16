@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.section-element{
+    border: 6px dashed;
+    border-radius: 10px;
+    border-color: red green blue yellow;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.section-element h1{
+    display: flex;
+    justify-content: center;
+
+}
+
+.time{
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.time h4{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.btn-form button{
+    padding: 12px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 5px;
+    border-radius: 7px;
+}
